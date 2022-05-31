@@ -1,0 +1,3 @@
+module LoggerRails
+    VERSION = '1.0.0'
+end
