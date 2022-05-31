@@ -19,4 +19,13 @@ Gem::Specification.new do |spec|
                     'Gemfile', 'Rakefile']
 
     spec.extra_rdoc_files = ['README.md']
+
+    spec.add_development_dependency 'rspec', '~> 3.1'
+    spec.add_development_dependency 'rubocop', '~> 1.23'
+    spec.add_development_dependency 'simplecov', '~> 0.21'
+  
+    spec.add_runtime_dependency 'actionpack',    '>= 4'
+    spec.add_runtime_dependency 'activesupport', '>= 4'
+    spec.add_runtime_dependency 'railties',      '>= 4'
+    spec.add_runtime_dependency 'request_store', '~> 1.0'
 end
